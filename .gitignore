@@ -1,0 +1,57 @@
+# Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Local configuration and private credentials
+.env
+.env.*
+!.env.example
+private/*
+!private/.gitkeep
+secrets/
+credentials/
+serviceAccount*.json
+*service-account*.json
+*firebase-adminsdk*.json
+*credentials*.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Live databases, logs and process state
+data/*
+!data/.gitkeep
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.log
+demo_logs/
+.demo_run/
+
+# Trained artefacts and externally supplied datasets
+artifacts/*
+!artifacts/README.md
+datasets/csic2010/
+datasets/csic_requests/
+datasets/csic_processed/
+
+# Local editor, operating system and patch backup files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.pre_request_shadow_backup
+*.bak
+*.zip

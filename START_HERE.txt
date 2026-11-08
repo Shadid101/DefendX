@@ -1,0 +1,18 @@
+DEFENDX GITHUB UPLOAD PACKAGE
+
+1. You can upload these files from your Windows VM without running the app.
+2. Open docs/GITHUB_WINDOWS.md for the complete upload instructions.
+3. Upload the CONTENTS of this DefendX folder, including its subfolders.
+4. Keep README.md and requirements.txt at the top level of the repository.
+5. Upload the extracted files. Uploading this ZIP alone will hide the source
+   inside an archive rather than showing a readable GitHub project.
+
+The package includes the application, rules, request ML integration, training
+and preparation scripts, cloud sync, Grafana dashboard, tests, and guides.
+
+Your trained models, original CSIC data, databases, real passwords and Firebase
+credentials are not included. The source can recreate models from your local
+data; it does not reproduce a particular past model without that data.
+
+After uploading, send the repository URL in this conversation so it can be
+checked and added to Appendix A of the report. The blog URL remains separate.
